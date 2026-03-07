@@ -5,7 +5,7 @@
 - Interview date target: in 10 days
 - Plan duration: 8 active preparation days
 - Total planned time: 28 hours
-- Completed time: 2.0/28 hours
+- Completed time: 3.0/28 hours
 
 ## Day Tracker
 
@@ -35,3 +35,4 @@
 - 2026-03-04 Day 1 Block 3 complete (30 min, live): Container choice drill completed with strict complexity + memory behavior framing (`unordered_set` vs `set`).
 - 2026-03-04 Day 1 status: in progress (3/4 blocks completed).
 - 2026-03-06 Day 1 Block 4 complete (30 min, live): Solved Two Sum and Longest Substring; corrected hash-map complexity phrasing and fixed stale-map bug by switching to one-pass sliding window.
+- 2026-03-07 Additional practice block complete (60 min): Daily Temperatures and Rotated Sorted Array Search implemented with test-driven validation and boundary-case fixes.

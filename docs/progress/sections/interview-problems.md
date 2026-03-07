@@ -16,7 +16,7 @@
 
 - [x] Arrays/strings pattern set completed
 - [ ] Two pointers/sliding window set completed
-- [ ] Stack/queue/binary search set completed
+- [x] Stack/queue/binary search set completed
 - [ ] Trees/graphs set completed
 - [ ] DP core set completed
 - [ ] 4 timed mock interviews completed
@@ -42,8 +42,11 @@
 - 2026-03-04: Section initialized.
 - 2026-03-06 (Day 1, Block 4, 30 min, live): Completed Two Sum + Longest Substring drills under strict format (approach, complexity, edge cases, correctness).
 - 2026-03-06: Longest Substring implementation corrected to canonical one-pass sliding window after stale-map bug surfaced on `abcaefgh`.
+- 2026-03-07 (60 min, live): Completed Daily Temperatures (monotonic stack) and Search in Rotated Sorted Array (binary search) with code-first edge-case tests.
+- 2026-03-07: Added boundary tests `{{3,1},1}` and `{{3,1},3}`; used failing case to drive rotated-search boundary fix.
 
 ## Mistake Log
 
 - 2026-03-06: Two Sum complexity phrasing initially incorrect (`O(n) * O(log n)`); corrected to average `O(n)` time with hash-map lookups average `O(1)`, worst-case `O(n^2)` under collisions.
 - 2026-03-06: Longest Substring bug from sharing stale `last_seen` state across restarted scans; fixed by monotonic `left` + single pass over `right`.
+- 2026-03-07: Rotated binary search initially used fragile boundary logic (`<` vs `<=` sorted-half check and unsigned-index risks); corrected with signed bounds and canonical `left <= right` loop.

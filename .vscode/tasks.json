@@ -4,11 +4,9 @@
         {
             "label": "C++: Build active file (MSVC C++20)",
             "type": "shell",
-            "command": "cmd",
+            "command": "${workspaceFolder}\\scripts\\build_active_msvc.bat",
             "args": [
-                "/d",
-                "/c",
-                "\"${workspaceFolder}\\scripts\\build_active_msvc.bat\" \"${file}\""
+                "${file}"
             ],
             "problemMatcher": [
                 "$msCompile"

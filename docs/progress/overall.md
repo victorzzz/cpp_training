@@ -5,11 +5,11 @@
 - Interview date target: in 10 days
 - Plan duration: 8 active preparation days
 - Total planned time: 28 hours
-- Completed time: 0/28 hours
+- Completed time: 2.0/28 hours
 
 ## Day Tracker
 
-- [ ] Day 1 (2h): Setup + Refresh
+- [x] Day 1 (2h): Setup + Refresh
 - [ ] Day 2 (2h): Core Memory Model
 - [ ] Day 3 (2h): STL + Ranges
 - [ ] Day 4 (2h): Templates + Concepts
@@ -29,3 +29,9 @@
 
 - Start every session by opening `docs/interview-plan.md` and this file.
 - Log concrete mistakes and fixes in section files.
+- 2026-03-04 Day 1 Block 1 complete (30 min): Build/run workflow validated, task quoting issue found and fixed in `.vscode/tasks.json`; rerun succeeded.
+- 2026-03-04 Correction: Blocks 2-3 were logged ahead of live practice; reverted to pending so session reflects only completed work.
+- 2026-03-04 Day 1 Block 2 complete (30 min, live): Value categories, `std::move` behavior, and Rule-of-0 policy selection practiced with corrections.
+- 2026-03-04 Day 1 Block 3 complete (30 min, live): Container choice drill completed with strict complexity + memory behavior framing (`unordered_set` vs `set`).
+- 2026-03-04 Day 1 status: in progress (3/4 blocks completed).
+- 2026-03-06 Day 1 Block 4 complete (30 min, live): Solved Two Sum and Longest Substring; corrected hash-map complexity phrasing and fixed stale-map bug by switching to one-pass sliding window.

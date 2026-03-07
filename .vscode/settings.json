@@ -10,5 +10,12 @@
         "memory": "cpp",
         "optional": "cpp",
         "ranges": "cpp"
+    },
+    "chat.tools.terminal.autoApprove": {
+        "code": true,
+        ".\\src\\block4\\temperatueres.exe": true,
+        "ForEach-Object": true,
+        ".\\scripts\\build_active_msvc.bat": true,
+        ".\\src\\block4\\rotated_sorted_array_search.exe": true
     }
 }

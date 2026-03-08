@@ -36,3 +36,7 @@
 - 2026-03-04 Day 1 status: in progress (3/4 blocks completed).
 - 2026-03-06 Day 1 Block 4 complete (30 min, live): Solved Two Sum and Longest Substring; corrected hash-map complexity phrasing and fixed stale-map bug by switching to one-pass sliding window.
 - 2026-03-07 Additional practice block complete (60 min): Daily Temperatures and Rotated Sorted Array Search implemented with test-driven validation and boundary-case fixes.
+- 2026-03-07 Session resumed (strict coaching mode): advancing to Course Schedule (topological sort, target O(V+E)) with code-first tests.
+- 2026-03-07 Course Schedule completed (Kahn BFS topological sort): validated DAG/cycle criterion with O(V+E) implementation and passing scaffold tests.
+- 2026-03-08 DP drill complete: House Robber solved with memoization and reviewed against rolling DP optimization target.
+- 2026-03-08 DP drill complete: House Robber II (circular constraint) solved with split-range rolling DP and boundary-case fix for n<=2.

@@ -17,7 +17,7 @@
 - [x] Arrays/strings pattern set completed
 - [ ] Two pointers/sliding window set completed
 - [x] Stack/queue/binary search set completed
-- [ ] Trees/graphs set completed
+- [x] Trees/graphs set completed
 - [ ] DP core set completed
 - [ ] 4 timed mock interviews completed
 
@@ -44,6 +44,10 @@
 - 2026-03-06: Longest Substring implementation corrected to canonical one-pass sliding window after stale-map bug surfaced on `abcaefgh`.
 - 2026-03-07 (60 min, live): Completed Daily Temperatures (monotonic stack) and Search in Rotated Sorted Array (binary search) with code-first edge-case tests.
 - 2026-03-07: Added boundary tests `{{3,1},1}` and `{{3,1},3}`; used failing case to drive rotated-search boundary fix.
+- 2026-03-07: Session resumed in strict coaching mode; next drill is Course Schedule with code-first normal+edge tests before implementation.
+- 2026-03-07: Completed Course Schedule using Kahn's algorithm (BFS topological sort); complexity and DAG/cycle correctness framing reinforced.
+- 2026-03-08: Completed House Robber DP drill with test-first scaffold; recursion+memoization solution reviewed and rolling-DP O(1) approach added for comparison.
+- 2026-03-08: Completed House Robber II (circular DP) with test-first workflow; fixed single-element boundary case during review.
 
 ## Mistake Log
 

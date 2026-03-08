@@ -16,6 +16,18 @@
         ".\\src\\block4\\temperatueres.exe": true,
         "ForEach-Object": true,
         ".\\scripts\\build_active_msvc.bat": true,
-        ".\\src\\block4\\rotated_sorted_array_search.exe": true
+        ".\\src\\block4\\rotated_sorted_array_search.exe": true,
+        ".\\src\\block4\\level_order_traversal.exe": true,
+        "/^C:\\\\GitHub\\\\cpp_training\\\\scripts\\\\build_active_msvc\\.bat C:\\\\GitHub\\\\cpp_training\\\\src\\\\block4\\\\course_schedule\\.cpp; C:\\\\GitHub\\\\cpp_training\\\\src\\\\block4\\\\course_schedule\\.exe$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "C:\\GitHub\\cpp_training\\scripts\\build_active_msvc.bat": true,
+        "C:\\GitHub\\cpp_training\\src\\block4\\house_robber.exe": true,
+        "C:\\GitHub\\cpp_training\\src\\block4\\house_robber_ii.exe": true,
+        "/^C:\\\\GitHub\\\\cpp_training\\\\scripts\\\\build_active_msvc\\.bat C:\\\\GitHub\\\\cpp_training\\\\src\\\\block4\\\\coin_change\\.cpp; C:\\\\GitHub\\\\cpp_training\\\\src\\\\block4\\\\coin_change\\.exe$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
     }
 }

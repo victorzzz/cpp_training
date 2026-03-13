@@ -48,6 +48,7 @@
 - 2026-03-07: Completed Course Schedule using Kahn's algorithm (BFS topological sort); complexity and DAG/cycle correctness framing reinforced.
 - 2026-03-08: Completed House Robber DP drill with test-first scaffold; recursion+memoization solution reviewed and rolling-DP O(1) approach added for comparison.
 - 2026-03-08: Completed House Robber II (circular DP) with test-first workflow; fixed single-element boundary case during review.
+- 2026-03-08: Completed Coin Change with test-first scaffold and bottom-up DP implementation; all current tests pass.
 
 ## Mistake Log
 

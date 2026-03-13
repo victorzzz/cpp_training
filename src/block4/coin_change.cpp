@@ -29,10 +29,27 @@ vector<TestCase> test_cases{
 
 int minCoins(const vector<int> &coins, int amount)
 {
-    // TODO: Implement DP solution for Coin Change.
-    (void)coins;
-    (void)amount;
-    return -999;
+    if (amount < 0)
+    {
+        return -1;
+    }
+
+    // dp[a] = minimum number of coins needed to make amount a.
+    vector<int> dp(amount + 1, amount + 1);
+    dp[0] = 0;
+
+    for (int a = 1; a <= amount; ++a)
+    {
+        for (int coin : coins)
+        {
+            if (coin <= a)
+            {
+                dp[a] = std::min(dp[a], dp[a - coin] + 1);
+            }
+        }
+    }
+
+    return (dp[amount] > amount) ? -1 : dp[amount];
 }
 
 template <typename T>
